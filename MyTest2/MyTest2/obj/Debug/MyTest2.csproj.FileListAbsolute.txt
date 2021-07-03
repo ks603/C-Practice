@@ -1,0 +1,7 @@
+C:\Users\kevin.shaughnessy\source\repos\MyTest2\MyTest2\bin\Debug\MyTest2.exe.config
+C:\Users\kevin.shaughnessy\source\repos\MyTest2\MyTest2\bin\Debug\MyTest2.exe
+C:\Users\kevin.shaughnessy\source\repos\MyTest2\MyTest2\bin\Debug\MyTest2.pdb
+C:\Users\kevin.shaughnessy\source\repos\MyTest2\MyTest2\obj\Debug\MyTest2.csproj.AssemblyReference.cache
+C:\Users\kevin.shaughnessy\source\repos\MyTest2\MyTest2\obj\Debug\MyTest2.csproj.CoreCompileInputs.cache
+C:\Users\kevin.shaughnessy\source\repos\MyTest2\MyTest2\obj\Debug\MyTest2.exe
+C:\Users\kevin.shaughnessy\source\repos\MyTest2\MyTest2\obj\Debug\MyTest2.pdb
