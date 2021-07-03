@@ -1,0 +1,6 @@
+C:\Users\kevin.shaughnessy\source\repos\MyTest2\Expressions2\bin\Debug\Expressions2.exe.config
+C:\Users\kevin.shaughnessy\source\repos\MyTest2\Expressions2\bin\Debug\Expressions2.exe
+C:\Users\kevin.shaughnessy\source\repos\MyTest2\Expressions2\bin\Debug\Expressions2.pdb
+C:\Users\kevin.shaughnessy\source\repos\MyTest2\Expressions2\obj\Debug\Expressions2.csproj.CoreCompileInputs.cache
+C:\Users\kevin.shaughnessy\source\repos\MyTest2\Expressions2\obj\Debug\Expressions2.exe
+C:\Users\kevin.shaughnessy\source\repos\MyTest2\Expressions2\obj\Debug\Expressions2.pdb
