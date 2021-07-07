@@ -1,0 +1,7 @@
+C:\Users\kevin.shaughnessy\source\repos\StringManipulation\ObjectsClasses\bin\Debug\ObjectsClasses.exe.config
+C:\Users\kevin.shaughnessy\source\repos\StringManipulation\ObjectsClasses\bin\Debug\ObjectsClasses.exe
+C:\Users\kevin.shaughnessy\source\repos\StringManipulation\ObjectsClasses\bin\Debug\ObjectsClasses.pdb
+C:\Users\kevin.shaughnessy\source\repos\StringManipulation\ObjectsClasses\obj\Debug\ObjectsClasses.csproj.AssemblyReference.cache
+C:\Users\kevin.shaughnessy\source\repos\StringManipulation\ObjectsClasses\obj\Debug\ObjectsClasses.csproj.CoreCompileInputs.cache
+C:\Users\kevin.shaughnessy\source\repos\StringManipulation\ObjectsClasses\obj\Debug\ObjectsClasses.exe
+C:\Users\kevin.shaughnessy\source\repos\StringManipulation\ObjectsClasses\obj\Debug\ObjectsClasses.pdb

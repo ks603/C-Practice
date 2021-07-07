@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulation", "Strin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditionals", "Conditionals\Conditionals.csproj", "{6B88C17D-5851-4AE0-B5C6-FAAEB4908195}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectsClasses", "ObjectsClasses\ObjectsClasses.csproj", "{1B2F2BC4-41B6-453D-81BB-2BA914D4F028}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6B88C17D-5851-4AE0-B5C6-FAAEB4908195}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B88C17D-5851-4AE0-B5C6-FAAEB4908195}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B88C17D-5851-4AE0-B5C6-FAAEB4908195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B2F2BC4-41B6-453D-81BB-2BA914D4F028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B2F2BC4-41B6-453D-81BB-2BA914D4F028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B2F2BC4-41B6-453D-81BB-2BA914D4F028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B2F2BC4-41B6-453D-81BB-2BA914D4F028}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
