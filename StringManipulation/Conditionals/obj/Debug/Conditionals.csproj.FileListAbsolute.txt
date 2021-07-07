@@ -1,0 +1,6 @@
+C:\Users\kevin.shaughnessy\source\repos\StringManipulation\Conditionals\bin\Debug\Conditionals.exe.config
+C:\Users\kevin.shaughnessy\source\repos\StringManipulation\Conditionals\bin\Debug\Conditionals.exe
+C:\Users\kevin.shaughnessy\source\repos\StringManipulation\Conditionals\bin\Debug\Conditionals.pdb
+C:\Users\kevin.shaughnessy\source\repos\StringManipulation\Conditionals\obj\Debug\Conditionals.csproj.CoreCompileInputs.cache
+C:\Users\kevin.shaughnessy\source\repos\StringManipulation\Conditionals\obj\Debug\Conditionals.exe
+C:\Users\kevin.shaughnessy\source\repos\StringManipulation\Conditionals\obj\Debug\Conditionals.pdb
