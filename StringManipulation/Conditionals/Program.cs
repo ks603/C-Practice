@@ -10,22 +10,27 @@ namespace Conditionals
     {
         static void Main(string[] args)
         {
-            string input = Console.ReadLine();
+            string username = Console.ReadLine();
+            string password = Console.ReadLine();
 
-            if (input.Equals("Kevin"))
+            if (username.Equals("Kevin") && password.Equals("123456"))
             {
                 Console.WriteLine("Hello Admin");
             }
-            else if (input.Equals("Joe"))
+            else if (username.Equals("Kevin"))
             {
-                Console.WriteLine("Hi Joe");
+                Console.WriteLine("Incorrect Password");
+            }
+            else if (password.Equals("123456"))
+            {
+                Console.WriteLine("Invalid Username");
             }
             else
             {
-                Console.WriteLine("Who you?");
+                Console.WriteLine("What Happened Here??");
             }
 
-            switch (input)
+            switch (username)
             {
                 case "Matt":
                     Console.WriteLine("Hello Admin");
