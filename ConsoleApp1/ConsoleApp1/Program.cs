@@ -10,15 +10,22 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string input = Console.ReadLine();
-
-            int convertedNumber;
-            bool isConvertedSuccesfully = int.TryParse(input, out convertedNumber);
-
-            if (!isConvertedSuccesfully)
+            try
             {
-                throw new Exception("Conversion was not succesful.");
+                string input = Console.ReadLine();
+
+                int convertedNumber;
+                bool isConvertedSuccesfully = int.TryParse(input, out convertedNumber);
+
+                if (!isConvertedSuccesfully)
+                {
+                    throw new Exception("Conversion was not succesful.");
+                }
+            } catch (Exception ex)
+            {
+                Console.WriteLine("There was an error: {0}", ex.Message);
             }
+            Console.WriteLine("The rest of my application is still running");
         }
     }
 }
