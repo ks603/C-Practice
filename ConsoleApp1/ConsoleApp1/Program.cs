@@ -14,18 +14,23 @@ namespace ConsoleApp1
             {
                 string input = Console.ReadLine();
 
-                int convertedNumber;
-                bool isConvertedSuccesfully = int.TryParse(input, out convertedNumber);
-
-                if (!isConvertedSuccesfully)
+                try
                 {
-                    throw new Exception("Conversion was not succesful.");
+                    StringToIntConverter stringToIntConverter = new StringToIntConverter();
+                    StringToIntConverter.convert(input);
                 }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("There was an error with converions: {0}", ex.Message);
+
             } catch (Exception ex)
             {
                 Console.WriteLine("There was an error: {0}", ex.Message);
+            } finally
+            {
+                Console.WriteLine("The rest of my application is still running.");
             }
-            Console.WriteLine("The rest of my application is still running");
+            
         }
     }
 }
