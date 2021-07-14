@@ -1,0 +1,17 @@
+C:\Users\kevin.shaughnessy\source\repos\ConsoleApp1\SimpleCalculator1.Test.Unit\obj\Debug\SimpleCalculator1.Test.Unit.csproj.AssemblyReference.cache
+C:\Users\kevin.shaughnessy\source\repos\ConsoleApp1\SimpleCalculator1.Test.Unit\obj\Debug\SimpleCalculator1.Test.Unit.csproj.CoreCompileInputs.cache
+C:\Users\kevin.shaughnessy\source\repos\ConsoleApp1\SimpleCalculator1.Test.Unit\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\kevin.shaughnessy\source\repos\ConsoleApp1\SimpleCalculator1.Test.Unit\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\kevin.shaughnessy\source\repos\ConsoleApp1\SimpleCalculator1.Test.Unit\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\kevin.shaughnessy\source\repos\ConsoleApp1\SimpleCalculator1.Test.Unit\bin\Debug\SimpleCalculator1.Test.Unit.dll
+C:\Users\kevin.shaughnessy\source\repos\ConsoleApp1\SimpleCalculator1.Test.Unit\bin\Debug\SimpleCalculator1.Test.Unit.pdb
+C:\Users\kevin.shaughnessy\source\repos\ConsoleApp1\SimpleCalculator1.Test.Unit\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\kevin.shaughnessy\source\repos\ConsoleApp1\SimpleCalculator1.Test.Unit\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\kevin.shaughnessy\source\repos\ConsoleApp1\SimpleCalculator1.Test.Unit\bin\Debug\SimpleCalculator.exe
+C:\Users\kevin.shaughnessy\source\repos\ConsoleApp1\SimpleCalculator1.Test.Unit\bin\Debug\SimpleCalculator.pdb
+C:\Users\kevin.shaughnessy\source\repos\ConsoleApp1\SimpleCalculator1.Test.Unit\bin\Debug\SimpleCalculator.exe.config
+C:\Users\kevin.shaughnessy\source\repos\ConsoleApp1\SimpleCalculator1.Test.Unit\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\kevin.shaughnessy\source\repos\ConsoleApp1\SimpleCalculator1.Test.Unit\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\kevin.shaughnessy\source\repos\ConsoleApp1\SimpleCalculator1.Test.Unit\obj\Debug\SimpleCalculator1.Test.Unit.csproj.CopyComplete
+C:\Users\kevin.shaughnessy\source\repos\ConsoleApp1\SimpleCalculator1.Test.Unit\obj\Debug\SimpleCalculator1.Test.Unit.dll
+C:\Users\kevin.shaughnessy\source\repos\ConsoleApp1\SimpleCalculator1.Test.Unit\obj\Debug\SimpleCalculator1.Test.Unit.pdb
