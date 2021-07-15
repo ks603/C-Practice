@@ -10,16 +10,12 @@ namespace Lists
     {
         static void Main(string[] args)
         {
-            var myFirstList = new List<int>();
+            int[] myArray = { 7, 8, 4, 5, 15 };
+           
 
-            Console.WriteLine(myFirstList.Count());
+            Array.Sort(myArray);
 
-            myFirstList.Add(10);
-            myFirstList.Add(5);
-
-            Console.WriteLine(myFirstList.Count());
-
-            int[] myFirstArray = new int[10];
+       
         }
     }
 }
