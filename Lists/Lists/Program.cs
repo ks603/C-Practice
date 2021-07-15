@@ -17,7 +17,9 @@ namespace Lists
             myFirstList.Add(10);
             myFirstList.Add(5);
 
-            Console.WriteLine(myFirstList);
+            Console.WriteLine(myFirstList.Count());
+
+            int[] myFirstArray = new int[10];
         }
     }
 }
