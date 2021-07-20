@@ -10,11 +10,14 @@ namespace Lists
     {
         static void Main(string[] args)
         {
-           for(int i=1; i<5; i++)
-            {
-                Console.WriteLine("This is line {0}", i);
-            }
+            var input = Console.ReadLine();
+            Console.WriteLine("User input is {0}", input);
 
+            while (!input.Equals(string.Empty))
+            {
+                input = Console.ReadLine();
+                Console.WriteLine("User input is {0}", input);
+            }
         }
     }
 }
