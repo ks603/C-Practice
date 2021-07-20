@@ -10,12 +10,11 @@ namespace Lists
     {
         static void Main(string[] args)
         {
-            int[] myArray = { 7, 8, 4, 5, 15 };
-           
+           for(int i=1; i<5; i++)
+            {
+                Console.WriteLine("This is line {0}", i);
+            }
 
-            Array.Sort(myArray);
-
-       
         }
     }
 }
