@@ -10,23 +10,25 @@ namespace Lists
     {
         static void Main(string[] args)
         {
-            //var input = Console.ReadLine();
-            //Console.WriteLine("User input is {0}", input);
-
-            //while (!input.Equals(string.Empty))
-            //{
-            //    input = Console.ReadLine();
-            //    Console.WriteLine("User input is {0}", input);
-            //}
-
-            var input = string.Empty;
-
-            do
+            for (int i = 1; i <= 100; i++)
             {
-                input = Console.ReadLine();
-                Console.WriteLine("User input is {0}", input);
-
-            } while (!input.Equals(string.Empty));
+                if (i % 3 == 0 && i % 5 == 0)
+                {
+                    Console.WriteLine("FizzBuzz");
+                }
+                else if (i % 3 == 0)
+                {
+                    Console.WriteLine("Fizz");
+                }
+                else if (i % 5 == 0)
+                {
+                    Console.WriteLine("Buzz");
+                }
+                else
+                {
+                    Console.WriteLine(i);
+                }
+            }
         }
     }
 }
