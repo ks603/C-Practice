@@ -10,25 +10,13 @@ namespace Lists
     {
         static void Main(string[] args)
         {
-            for (int i = 1; i <= 100; i++) 
+            int[] array = { 1, 5, 7, 8, 10 };
+
+            foreach (var element in array)
             {
-                if (i % 3 == 0 && i % 5 == 0)
-                {
-                    Console.WriteLine("FizzBuzz");
-                }
-                else if (i % 3 == 0)
-                {
-                    Console.WriteLine("Fizz");
-                }
-                else if (i % 5 == 0)
-                {
-                    Console.WriteLine("Buzz");
-                }
-                else
-                {
-                    Console.WriteLine(i);
-                }
+                Console.WriteLine(element + 1);
             }
+            Console.WriteLine(array);
         }
     }
 }
