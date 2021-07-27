@@ -10,23 +10,15 @@ namespace Lists
     {
         static void Main(string[] args)
         {
-            int[] array = { 1, 5, 7, 8, 10 };
-
-            foreach (var element in array)
+            List<int> list = new List<int>() { 1, 5, 7, 9, 10 };
+            foreach (var element in list)
             {
-                Console.WriteLine(element + 1);
+                Console.WriteLine(element);
             }
 
-            for(int i=0; i < array.Length; i++)
+            for (int i = 0; i <= list.Count; i++)
             {
-                Console.WriteLine(array[i]);
-            }
-
-            int index = 0;
-            while (index < array.Length)
-            {
-                Console.WriteLine(array[index]);
-                index++;
+                Console.WriteLine(list[i]);
             }
         }
     }
