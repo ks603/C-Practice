@@ -10,16 +10,24 @@ namespace Lists
     {
         static void Main(string[] args)
         {
-            List<int> list = new List<int>() { 1, 5, 7, 9, 10 };
-            foreach (var element in list)
-            {
-                Console.WriteLine(element);
-            }
+            Person person = new Person();
+            person.FirstName = "John";
+            person.LastName = "Smith";
 
-            for (int i = 0; i <= list.Count; i++)
-            {
-                Console.WriteLine(list[i]);
-            }
+            Console.WriteLine(person.FirstName);
+            Console.WriteLine(person.LastName);
+
+
+
+            ChangeName(person);
+            Console.WriteLine(person.FirstName);
+            Console.WriteLine(person.LastName);
+        }
+
+        static void ChangeName(Person personToChange)
+        {
+            personToChange.FirstName = "Matt";
+            personToChange.LastName = "Damon";
         }
     }
 }
