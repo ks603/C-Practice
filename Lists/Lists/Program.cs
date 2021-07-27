@@ -16,7 +16,18 @@ namespace Lists
             {
                 Console.WriteLine(element + 1);
             }
-            Console.WriteLine(array);
+
+            for(int i=0; i < array.Length; i++)
+            {
+                Console.WriteLine(array[i]);
+            }
+
+            int index = 0;
+            while (index < array.Length)
+            {
+                Console.WriteLine(array[index]);
+                index++;
+            }
         }
     }
 }
