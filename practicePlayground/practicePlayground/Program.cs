@@ -10,9 +10,12 @@ namespace practicePlayground
     {
         static void Main(string[] args)
         {
-            Person person = new Person("John", "Smith");
+            Person person = null;
 
-            Console.WriteLine(person.FirstName);
+            Person newPerson = person ?? new Person("Default", "Person");
+
+            Console.WriteLine(newPerson.FirstName);
+            Console.WriteLine(newPerson.LastName);
         }
     }
 }
