@@ -1,0 +1,7 @@
+C:\Users\kevin.shaughnessy\source\repos\practicePlayground\practicePlayground\bin\Debug\practicePlayground.exe.config
+C:\Users\kevin.shaughnessy\source\repos\practicePlayground\practicePlayground\bin\Debug\practicePlayground.exe
+C:\Users\kevin.shaughnessy\source\repos\practicePlayground\practicePlayground\bin\Debug\practicePlayground.pdb
+C:\Users\kevin.shaughnessy\source\repos\practicePlayground\practicePlayground\obj\Debug\practicePlayground.csproj.AssemblyReference.cache
+C:\Users\kevin.shaughnessy\source\repos\practicePlayground\practicePlayground\obj\Debug\practicePlayground.csproj.CoreCompileInputs.cache
+C:\Users\kevin.shaughnessy\source\repos\practicePlayground\practicePlayground\obj\Debug\practicePlayground.exe
+C:\Users\kevin.shaughnessy\source\repos\practicePlayground\practicePlayground\obj\Debug\practicePlayground.pdb
