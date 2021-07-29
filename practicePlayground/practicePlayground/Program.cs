@@ -10,7 +10,7 @@ namespace practicePlayground
     {
         static void Main(string[] args)
         {
-            Person person = null;
+            Person person = new Person("John", "Smith");
 
             Person newPerson = person ?? new Person("Default", "Person");
 

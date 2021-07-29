@@ -1,0 +1,7 @@
+C:\Users\kevin.shaughnessy\source\repos\Reserved Words\Reserved Words\bin\Debug\Reserved Words.exe.config
+C:\Users\kevin.shaughnessy\source\repos\Reserved Words\Reserved Words\bin\Debug\Reserved Words.exe
+C:\Users\kevin.shaughnessy\source\repos\Reserved Words\Reserved Words\bin\Debug\Reserved Words.pdb
+C:\Users\kevin.shaughnessy\source\repos\Reserved Words\Reserved Words\obj\Debug\Reserved Words.csproj.AssemblyReference.cache
+C:\Users\kevin.shaughnessy\source\repos\Reserved Words\Reserved Words\obj\Debug\Reserved Words.csproj.CoreCompileInputs.cache
+C:\Users\kevin.shaughnessy\source\repos\Reserved Words\Reserved Words\obj\Debug\Reserved Words.exe
+C:\Users\kevin.shaughnessy\source\repos\Reserved Words\Reserved Words\obj\Debug\Reserved Words.pdb
