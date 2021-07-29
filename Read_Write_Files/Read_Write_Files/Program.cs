@@ -16,7 +16,10 @@ namespace Read_Write_Files
 
             string[] fileContents = File.ReadAllLines("MyFirstFile.txt");
 
-            Console.WriteLine(fileContents);
+            foreach(string line in File.ReadLines("MyFirstFile.txt"))
+            {
+                Console.WriteLine(line);
+            }
         }
     }
 }
