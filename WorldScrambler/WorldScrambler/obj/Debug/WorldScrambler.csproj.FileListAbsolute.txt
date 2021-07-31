@@ -1,0 +1,7 @@
+C:\Users\kevin.shaughnessy\source\repos\WorldScrambler\WorldScrambler\bin\Debug\WorldScrambler.exe.config
+C:\Users\kevin.shaughnessy\source\repos\WorldScrambler\WorldScrambler\bin\Debug\WorldScrambler.exe
+C:\Users\kevin.shaughnessy\source\repos\WorldScrambler\WorldScrambler\bin\Debug\WorldScrambler.pdb
+C:\Users\kevin.shaughnessy\source\repos\WorldScrambler\WorldScrambler\obj\Debug\WorldScrambler.csproj.AssemblyReference.cache
+C:\Users\kevin.shaughnessy\source\repos\WorldScrambler\WorldScrambler\obj\Debug\WorldScrambler.csproj.CoreCompileInputs.cache
+C:\Users\kevin.shaughnessy\source\repos\WorldScrambler\WorldScrambler\obj\Debug\WorldScrambler.exe
+C:\Users\kevin.shaughnessy\source\repos\WorldScrambler\WorldScrambler\obj\Debug\WorldScrambler.pdb

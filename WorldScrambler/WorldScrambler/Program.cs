@@ -24,18 +24,35 @@ namespace WorldScrambler
                         break;
                     case "M":
                         Console.Write("Enter scrambled words manually: ");
-                        ExecuteScrambledWordsInManualScenario();
+                        ExecuteScrambledWordsInManuelScenario();
                         break;
                     default:
                         Console.Write("Option was not recongnized.");
                         break;
                 }
-            } while ();
+
+                var continueWordUnscrambleDecision = string.Empty;
+                do
+                {
+                    Console.WriteLine("Do you want to continue? Y/N");
+                    continueWordUnscrambleDecision = (Console.ReadLine() ?? string.Empty);
+
+                } while (
+                !continueWordUnscrambleDecision.Equals("Y", StringComparison.OrdinalIgnoreCase) && !continueWordUnscrambleDecision.Equals("N", StringComparison.OrdinalIgnoreCase));
+
+                continueWordUnscramble = continueWordUnscrambleDecision.Equals("Y", StringComparison.OrdinalIgnoreCase);
+
+            } while (continueWordUnscramble);
+        }
+
+        private static void ExecuteScrambledWordsInManuelScenario()
+        {
+            //throw new NotImplementedException();
         }
 
         private static void ExecuteScrambledWordsInFileScenario()
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
     }
 }
