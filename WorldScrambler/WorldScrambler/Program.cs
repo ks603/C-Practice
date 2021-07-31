@@ -31,16 +31,16 @@ namespace WorldScrambler
                         break;
                 }
 
-                var continueWordUnscrambleDecision = string.Empty;
+                var continueDecision = string.Empty;
                 do
                 {
                     Console.WriteLine("Do you want to continue? Y/N");
-                    continueWordUnscrambleDecision = (Console.ReadLine() ?? string.Empty);
+                    continueDecision = (Console.ReadLine() ?? string.Empty);
 
                 } while (
-                !continueWordUnscrambleDecision.Equals("Y", StringComparison.OrdinalIgnoreCase) && !continueWordUnscrambleDecision.Equals("N", StringComparison.OrdinalIgnoreCase));
+                !continueDecision.Equals("Y", StringComparison.OrdinalIgnoreCase) && !continueDecision.Equals("N", StringComparison.OrdinalIgnoreCase));
 
-                continueWordUnscramble = continueWordUnscrambleDecision.Equals("Y", StringComparison.OrdinalIgnoreCase);
+                continueWordUnscramble = continueDecision.Equals("Y", StringComparison.OrdinalIgnoreCase);
 
             } while (continueWordUnscramble);
         }
