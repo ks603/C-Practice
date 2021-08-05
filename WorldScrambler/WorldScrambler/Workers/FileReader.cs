@@ -3,14 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace WorldScrambler.Workers
 {
     class FileReader
     {
-        internal string[] Read(string filename)
+        public string[] Read(string filename)
         {
-            throw new NotImplementedException();
+            string[] fileContent;
+            try
+            {
+                fileContent = File.ReadAllLines(filename);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            return fileContent;
         }
     }
 }
