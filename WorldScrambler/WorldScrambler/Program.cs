@@ -38,7 +38,8 @@ namespace WorldScrambler
                     continueDecision = (Console.ReadLine() ?? string.Empty);
 
                 } while (
-                !continueDecision.Equals("Y", StringComparison.OrdinalIgnoreCase) && !continueDecision.Equals("N", StringComparison.OrdinalIgnoreCase));
+                    !continueDecision.Equals("Y", StringComparison.OrdinalIgnoreCase) && 
+                    !continueDecision.Equals("N", StringComparison.OrdinalIgnoreCase));
 
                 continueWordUnscramble = continueDecision.Equals("Y", StringComparison.OrdinalIgnoreCase);
 
@@ -47,12 +48,22 @@ namespace WorldScrambler
 
         private static void ExecuteScrambledWordsInManuelScenario()
         {
-            //throw new NotImplementedException();
+            var manualInput = Console.ReadLine() ?? string.Empty;
+            string[] scrambledWords = manualInput.Split(',');
+            DisplayMatchedUnscrambledWords(scrambledWords);
         }
 
         private static void ExecuteScrambledWordsInFileScenario()
         {
-            //throw new NotImplementedException();
+            var filename = Console.ReadLine() ?? string.Empty;
+            string[] scrambledWords = _fileReader.Read(filename);
+            DisplayMatchedUnscrambledWords(scrambledWords);
         }
+
+        private static void DisplayMatchedUnscrambledWords(string[] scrambledWords)
+        {
+            string[] wordList = 
+        }
+
     }
 }
