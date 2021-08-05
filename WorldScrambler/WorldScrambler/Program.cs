@@ -1,13 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using WorldScrambler.Data;
+using WorldScrambler.Workers;
 
 namespace WorldScrambler
 {
     class Program
     {
+        private static readonly FileReader _fileReader = new FileReader();
+        private static readonly WordMatcher _wordMatcher = new WordMatcher();
+        private const string wordListFileName = "wordlist.txt";
         static void Main(string[] args)
         {
             bool continueWordUnscramble = true;
@@ -62,7 +65,21 @@ namespace WorldScrambler
 
         private static void DisplayMatchedUnscrambledWords(string[] scrambledWords)
         {
-            string[] wordList = 
+            string[] wordList = _fileReader.Read(wordListFileName);
+
+            List<MatchedWord> matchedWords = _wordMatcher.Match(scrambledWords, wordList);
+
+            if (matchedWords.Any())
+            {
+                foreach (var matchedWord in matchedWords)
+                {
+                    Console.WriteLine("Match found for {0}: {1}", matchedWord.ScrambledWord, matchedWord.Word);
+                }
+            }
+            else
+            {
+                Console.Write("No matches have been found.")
+            }
         }
 
     }

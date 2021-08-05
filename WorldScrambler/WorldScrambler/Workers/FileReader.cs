@@ -8,5 +8,9 @@ namespace WorldScrambler.Workers
 {
     class FileReader
     {
+        internal string[] Read(string filename)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
