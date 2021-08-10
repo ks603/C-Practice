@@ -30,6 +30,12 @@ namespace WorldScrambler.Workers
                         Array.Sort(wordArray);
 
                         var sortedScrambledWord = new string(scrambledWordArray);
+                        var sortedWord = new string(wordArray);
+
+                        if (sortedScrambledWord.Equals(sortedWord, StringComparison.OrdinalIgnoreCase))
+                        {
+                            matchedWords.Add(BuildMatchedWord(scrambledWord, word));
+                        }
                     }
                 }
             }
