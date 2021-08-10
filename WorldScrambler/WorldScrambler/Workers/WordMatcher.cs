@@ -9,14 +9,42 @@ namespace WorldScrambler.Workers
 {
     class WordMatcher
     {
-        internal List<MatchedWord> Match()
+        public List<MatchedWord> Match(string[] scrambledWords, string[] wordList)
         {
-            throw new NotImplementedException();
+            var matchedWords = new List<MatchedWord>();
+
+            foreach (var scrambledWord in scrambledWords)
+            {
+                foreach (var word in wordList)
+                {
+                    if (scrambledWord.Equals(word, StringComparison.OrdinalIgnoreCase))
+                    {
+                        matchedWords.Add(BuildMatchedWord(scrambledWord, word));
+                    }
+                    else
+                    {
+                        var scrambledWordArray = scrambledWord.ToCharArray();
+                        var wordArray = word.ToCharArray();
+
+                        Array.Sort(scrambledWordArray);
+                        Array.Sort(wordArray);
+
+                        var sortedScrambledWord = new string(scrambledWordArray);
+                    }
+                }
+            }
+
+            return matchedWords;
         }
 
-        internal List<MatchedWord> Match(string[] scrambledWords, string[] wordList)
+        private MatchedWord BuildMatchedWord(string scrambledWord, string word)
         {
-            throw new NotImplementedException();
+            MatchedWord matchedWord = new MatchedWord
+            {
+                ScrambledWord = scrambledWord,
+                Word = word
+            };
+            return matchedWord;
         }
     }
 }
