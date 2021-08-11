@@ -10,43 +10,51 @@ namespace WorldScrambler
     {
         private static readonly FileReader _fileReader = new FileReader();
         private static readonly WordMatcher _wordMatcher = new WordMatcher();
-        private const string wordListFileName = "wordlist.txt";
+        
         static void Main(string[] args)
         {
-            bool continueWordUnscramble = true;
-            do
+            try
             {
-                Console.WriteLine("Please enter the option - F for File and M for Manual");
-                var option = Console.ReadLine() ?? string.Empty;
-
-                switch (option.ToUpper())
-                {
-                    case "F":
-                        Console.Write("Enter scrembled words file name: ");
-                        ExecuteScrambledWordsInFileScenario();
-                        break;
-                    case "M":
-                        Console.Write("Enter scrambled words manually: ");
-                        ExecuteScrambledWordsInManuelScenario();
-                        break;
-                    default:
-                        Console.Write("Option was not recongnized.");
-                        break;
-                }
-
-                var continueDecision = string.Empty;
+                bool continueWordUnscramble = true;
                 do
                 {
-                    Console.WriteLine("Do you want to continue? Y/N");
-                    continueDecision = (Console.ReadLine() ?? string.Empty);
+                    Console.WriteLine(Constants.OptionsOnHowToEnterScrambledWords);
+                    var option = Console.ReadLine() ?? string.Empty;
 
-                } while (
-                    !continueDecision.Equals("Y", StringComparison.OrdinalIgnoreCase) && 
-                    !continueDecision.Equals("N", StringComparison.OrdinalIgnoreCase));
+                    switch (option.ToUpper())
+                    {
+                        case Constants.File:
+                            Console.Write(Constants.EnterScrambledWordsViaFile);
+                            ExecuteScrambledWordsInFileScenario();
+                            break;
+                        case Constants.Manual:
+                            Console.Write(Constants.EnterScrambledWordsManually);
+                            ExecuteScrambledWordsInManuelScenario();
+                            break;
+                        default:
+                            Console.Write(Constants.EnterScrambledWordsOptionNotRecognized);
+                            break;
+                    }
 
-                continueWordUnscramble = continueDecision.Equals("Y", StringComparison.OrdinalIgnoreCase);
+                    var continueDecision = string.Empty;
+                    do
+                    {
+                        Console.WriteLine(Constants.OptionsOnContinuingTheProgram);
+                        continueDecision = (Console.ReadLine() ?? string.Empty);
 
-            } while (continueWordUnscramble);
+                    } while (
+                        !continueDecision.Equals(Constants.Yes, StringComparison.OrdinalIgnoreCase) &&
+                        !continueDecision.Equals(Constants.No, StringComparison.OrdinalIgnoreCase));
+
+                    continueWordUnscramble = continueDecision.Equals(Constants.Yes, StringComparison.OrdinalIgnoreCase);
+
+                } while (continueWordUnscramble);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(Constants.ErrorProgramWillBeTerminated + ex.Message);
+            }
+           
         }
 
         private static void ExecuteScrambledWordsInManuelScenario()
@@ -73,7 +81,7 @@ namespace WorldScrambler
 
         private static void DisplayMatchedUnscrambledWords(string[] scrambledWords)
         {
-            string[] wordList = _fileReader.Read(wordListFileName);
+            string[] wordList = _fileReader.Read(Constants.wordListFileName);
 
             List<MatchedWord> matchedWords = _wordMatcher.Match(scrambledWords, wordList);
 
@@ -81,12 +89,12 @@ namespace WorldScrambler
             {
                 foreach (var matchedWord in matchedWords)
                 {
-                    Console.WriteLine("Match found for {0}: {1}", matchedWord.ScrambledWord, matchedWord.Word);
+                    Console.WriteLine(Constants.MatchFound, matchedWord.ScrambledWord, matchedWord.Word);
                 }
             }
             else
             {
-                Console.Write("No matches have been found.")
+                Console.Write(Constants.MatchNotFound);
             }
         }
 

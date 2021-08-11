@@ -8,7 +8,7 @@ namespace WorldScrambler
 {
     class Constants
     {
-        public const string OptionsOnHowToEnterScrambledWords = "Enter scrambled word(s) manually or as a file: F - file / M -manuel";
+        public const string OptionsOnHowToEnterScrambledWords = "Enter scrambled word(s) manually or as a file: F - file / M - manuel";
         public const string OptionsOnContinuingTheProgram = "Would you like to continue? Y/N";
 
         public const string EnterScrambledWordsViaFile = "Enter full path including the file name: ";
@@ -25,5 +25,7 @@ namespace WorldScrambler
         public const string No = "N";
         public const string File = "F";
         public const string Manual = "M";
+
+        public const string wordListFileName = "wordlist.txt";
     }
 }
