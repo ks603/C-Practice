@@ -32,7 +32,7 @@ namespace WorldScrambler
                             ExecuteScrambledWordsInManuelScenario();
                             break;
                         default:
-                            Console.Write(Constants.EnterScrambledWordsOptionNotRecognized);
+                            Console.WriteLine(Constants.EnterScrambledWordsOptionNotRecognized);
                             break;
                     }
 
