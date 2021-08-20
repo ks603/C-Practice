@@ -18,6 +18,9 @@ namespace FieldsPractice
             Console.WriteLine(person.LastName);
 
             Console.WriteLine(person.HasProperDocuments);
+
+            person.FirstName = "";
+            Console.WriteLine(person.FirstName);
         }
     }
 }

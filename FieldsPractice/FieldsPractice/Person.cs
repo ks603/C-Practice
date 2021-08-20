@@ -11,6 +11,8 @@ namespace FieldsPractice
         string _ssn = "SSN";
         string _passportData = "Data";
         string _driversLicesneNumber = "More Data";
+        string _firstName = "Tim";
+        string _lastName = "Ranch";
 
         public bool HasProperDocuments
         {
@@ -20,7 +22,35 @@ namespace FieldsPractice
             }
         }
 
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        public string FirstName {
+            get
+            {
+                return _firstName;
+            }
+            set
+            {
+                if (value.Length < 1)
+                {
+                    Console.WriteLine("Input is not accepted");
+                    return;
+                }
+                _firstName = value;
+            }
+        }
+        public string LastName {
+            get
+            {
+                return _lastName;
+            }
+            set
+            {
+                if (value.Length < 1)
+                {
+                    Console.WriteLine("Input is not accepted");
+                    return;
+                }
+                _lastName = value;
+            }
+        }
     }
 }
