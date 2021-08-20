@@ -10,17 +10,10 @@ namespace FieldsPractice
     {
         static void Main(string[] args)
         {
-            Person person = new Person();
-            person.FirstName = "Avetis";
-            person.LastName = "Sustav";
-
-            Console.WriteLine(person.FirstName);
-            Console.WriteLine(person.LastName);
+            Person person = new Person("SSN", "Data", "More Data");
 
             Console.WriteLine(person.HasProperDocuments);
 
-            person.FirstName = "";
-            Console.WriteLine(person.FirstName);
         }
     }
 }

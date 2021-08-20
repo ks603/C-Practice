@@ -8,12 +8,16 @@ namespace FieldsPractice
 {
     class Person
     {
-        string _ssn = "SSN";
-        string _passportData = "Data";
-        string _driversLicesneNumber = "More Data";
-        string _firstName = "Tim";
-        string _lastName = "Ranch";
+        string _ssn;
+        string _passportData;
+        string _driversLicesneNumber;
 
+        public Person(string ssn, string passportData, string driversLicesneNumber)
+        {
+            _ssn = ssn;
+            _passportData = passportData;
+            _driversLicesneNumber = driversLicesneNumber;
+        }
         public bool HasProperDocuments
         {
             get
@@ -21,36 +25,6 @@ namespace FieldsPractice
                 return _ssn.Length > 0 && _passportData.Length > 0 && _driversLicesneNumber.Length > 0;
             }
         }
-
-        public string FirstName {
-            get
-            {
-                return _firstName;
-            }
-            set
-            {
-                if (value.Length < 1)
-                {
-                    Console.WriteLine("Input is not accepted");
-                    return;
-                }
-                _firstName = value;
-            }
-        }
-        public string LastName {
-            get
-            {
-                return _lastName;
-            }
-            set
-            {
-                if (value.Length < 1)
-                {
-                    Console.WriteLine("Input is not accepted");
-                    return;
-                }
-                _lastName = value;
-            }
-        }
+         
     }
 }
