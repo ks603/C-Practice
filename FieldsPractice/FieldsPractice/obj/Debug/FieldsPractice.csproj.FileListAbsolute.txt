@@ -1,0 +1,7 @@
+C:\Users\kevin.shaughnessy\source\repos\FieldsPractice\FieldsPractice\bin\Debug\FieldsPractice.exe.config
+C:\Users\kevin.shaughnessy\source\repos\FieldsPractice\FieldsPractice\bin\Debug\FieldsPractice.exe
+C:\Users\kevin.shaughnessy\source\repos\FieldsPractice\FieldsPractice\bin\Debug\FieldsPractice.pdb
+C:\Users\kevin.shaughnessy\source\repos\FieldsPractice\FieldsPractice\obj\Debug\FieldsPractice.csproj.AssemblyReference.cache
+C:\Users\kevin.shaughnessy\source\repos\FieldsPractice\FieldsPractice\obj\Debug\FieldsPractice.csproj.CoreCompileInputs.cache
+C:\Users\kevin.shaughnessy\source\repos\FieldsPractice\FieldsPractice\obj\Debug\FieldsPractice.exe
+C:\Users\kevin.shaughnessy\source\repos\FieldsPractice\FieldsPractice\obj\Debug\FieldsPractice.pdb
