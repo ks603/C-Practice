@@ -8,22 +8,28 @@ namespace FieldsPractice
 {
     class Person
     {
-        string _ssn;
-        string _passportData;
-        string _driversLicesneNumber;
+       public string FirstName { get; set; }
+       public string LastName { get; set; }
 
-        public Person(string ssn, string passportData, string driversLicesneNumber)
+        public Person(string FirstName, string LastName)
         {
-            _ssn = ssn;
-            _passportData = passportData;
-            _driversLicesneNumber = driversLicesneNumber;
+            this.FirstName = FirstName;
+            this.LastName = LastName;
         }
-        public bool HasProperDocuments
+
+        public void Walk()
         {
-            get
-            {
-                return _ssn.Length > 0 && _passportData.Length > 0 && _driversLicesneNumber.Length > 0;
-            }
+            Console.WriteLine("I am walking.");
+        }
+
+        public void Eat()
+        {
+            Console.WriteLine("I am eating");
+        }
+
+        public void Sleep()
+        {
+            Console.WriteLine("I am sleeping");
         }
          
     }

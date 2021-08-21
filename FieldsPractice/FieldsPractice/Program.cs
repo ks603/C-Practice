@@ -10,9 +10,9 @@ namespace FieldsPractice
     {
         static void Main(string[] args)
         {
-            Person person = new Person("SSN", "Data", "More Data");
+            Person person1 = new Person("John", "Smith");
 
-            Console.WriteLine(person.HasProperDocuments);
+            person1.Sleep();
 
         }
     }
