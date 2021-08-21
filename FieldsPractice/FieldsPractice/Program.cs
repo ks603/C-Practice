@@ -13,7 +13,10 @@ namespace FieldsPractice
             Person person1 = new Person("John", "Smith");
 
             person1.Sleep();
-            Console.WriteLine(person1.FirstName);
+
+            SuperPerson person2 = new SuperPerson("John", "Doe");
+            person2.Sleep();
+            person2.Fly();
 
         }
     }
