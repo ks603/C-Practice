@@ -14,6 +14,9 @@ namespace FieldsPractice
 
             person1.Sleep();
 
+            //person1.FirstName = "Jane";
+            //person1.LastName = "Smithh";
+
             SuperPerson person2 = new SuperPerson("John", "Doe");
             person2.Sleep();
             person2.Fly();

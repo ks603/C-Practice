@@ -1,0 +1,11 @@
+C:\Users\kevin.shaughnessy\source\repos\FieldsPractice\EncapsulationPractice\bin\Debug\EncapsulationPractice.exe.config
+C:\Users\kevin.shaughnessy\source\repos\FieldsPractice\EncapsulationPractice\bin\Debug\EncapsulationPractice.exe
+C:\Users\kevin.shaughnessy\source\repos\FieldsPractice\EncapsulationPractice\bin\Debug\EncapsulationPractice.pdb
+C:\Users\kevin.shaughnessy\source\repos\FieldsPractice\EncapsulationPractice\bin\Debug\FieldsPractice.exe
+C:\Users\kevin.shaughnessy\source\repos\FieldsPractice\EncapsulationPractice\bin\Debug\FieldsPractice.pdb
+C:\Users\kevin.shaughnessy\source\repos\FieldsPractice\EncapsulationPractice\bin\Debug\FieldsPractice.exe.config
+C:\Users\kevin.shaughnessy\source\repos\FieldsPractice\EncapsulationPractice\obj\Debug\EncapsulationPractice.csproj.AssemblyReference.cache
+C:\Users\kevin.shaughnessy\source\repos\FieldsPractice\EncapsulationPractice\obj\Debug\EncapsulationPractice.csproj.CoreCompileInputs.cache
+C:\Users\kevin.shaughnessy\source\repos\FieldsPractice\EncapsulationPractice\obj\Debug\EncapsulationPractice.csproj.CopyComplete
+C:\Users\kevin.shaughnessy\source\repos\FieldsPractice\EncapsulationPractice\obj\Debug\EncapsulationPractice.exe
+C:\Users\kevin.shaughnessy\source\repos\FieldsPractice\EncapsulationPractice\obj\Debug\EncapsulationPractice.pdb

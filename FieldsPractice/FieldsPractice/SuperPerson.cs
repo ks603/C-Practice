@@ -16,7 +16,8 @@ namespace FieldsPractice
         
         public void Fly()
         {
-            Console.WriteLine("I am flying");
+            Console.WriteLine("I am flying {0} {1}", FirstName, LastName);
+
         }
     }
 }

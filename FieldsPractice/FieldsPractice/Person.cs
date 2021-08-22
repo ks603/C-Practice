@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace FieldsPractice
 {
-    class Person
+    public class Person
     {
-       public string FirstName { get; set; }
-       public string LastName { get; set; }
+        protected string FirstName { get; set; }
+        protected string LastName { get; set; }
 
         public Person(string FirstName, string LastName)
         {
