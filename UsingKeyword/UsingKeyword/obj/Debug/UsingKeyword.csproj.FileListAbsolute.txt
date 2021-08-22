@@ -1,0 +1,7 @@
+C:\Users\kevin.shaughnessy\source\repos\UsingKeyword\UsingKeyword\bin\Debug\UsingKeyword.exe.config
+C:\Users\kevin.shaughnessy\source\repos\UsingKeyword\UsingKeyword\bin\Debug\UsingKeyword.exe
+C:\Users\kevin.shaughnessy\source\repos\UsingKeyword\UsingKeyword\bin\Debug\UsingKeyword.pdb
+C:\Users\kevin.shaughnessy\source\repos\UsingKeyword\UsingKeyword\obj\Debug\UsingKeyword.csproj.AssemblyReference.cache
+C:\Users\kevin.shaughnessy\source\repos\UsingKeyword\UsingKeyword\obj\Debug\UsingKeyword.csproj.CoreCompileInputs.cache
+C:\Users\kevin.shaughnessy\source\repos\UsingKeyword\UsingKeyword\obj\Debug\UsingKeyword.exe
+C:\Users\kevin.shaughnessy\source\repos\UsingKeyword\UsingKeyword\obj\Debug\UsingKeyword.pdb
