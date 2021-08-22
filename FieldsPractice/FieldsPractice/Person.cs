@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FieldsPractice
 {
-    public class Person
+     class Person
     {
         protected string FirstName { get; set; }
         protected string LastName { get; set; }

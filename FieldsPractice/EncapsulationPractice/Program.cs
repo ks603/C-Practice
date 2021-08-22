@@ -11,7 +11,7 @@ namespace EncapsulationPractice
     {
         static void Main(string[] args)
         {
-
+            Person person = new Person("John", "Smith");
         }
     }
 }
