@@ -23,7 +23,7 @@ namespace BuilderPattern
         private void SetDefaults()
         {
             _firstName = "John";
-            _lastName = "Smiht";
+            _lastName = "Smith";
             _age = 30;
             _eyeColor = 153;
             _hairColor = 153;
@@ -63,13 +63,5 @@ namespace BuilderPattern
             Person person = new Person(_firstName, _lastName, _age, _eyeColor, _hairColor);
             return person;
         }
-
-
-
-        //public string FirstName { get; set; }
-        //public string LastName { get; set; }
-        //public int Age { get; set; }
-        //public int EyeColor { get; set; }
-        //public int HairColor { get; set; }
     }
 }
