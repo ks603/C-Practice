@@ -8,24 +8,24 @@ namespace SimpleCalculator
 {
     class SimpCalculator
     {
-        public void Add(int a, int b)
+        public int Add(int a, int b)
         {
-            Console.WriteLine(a + b);
+            return a + b;
         }
 
-        public void Subract(int a, int b)
+        public int Subract(int a, int b)
         {
-            Console.WriteLine(a - b);
+            return a - b;
         }
 
-        public void Divide(int a, int b)
+        public int Divide(int a, int b)
         {
-            Console.WriteLine(a / b);
+            return a / b;
         }
 
-        public void Multiply(int a, int b)
+        public int Multiply(int a, int b)
         {
-            Console.WriteLine(a * b);
+            return a * b;
         }
     }
 }
