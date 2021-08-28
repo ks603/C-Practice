@@ -1,0 +1,7 @@
+C:\Users\kevin.shaughnessy\source\repos\SimpleWebScraper\SimpleWebScraper\bin\Debug\SimpleWebScraper.exe.config
+C:\Users\kevin.shaughnessy\source\repos\SimpleWebScraper\SimpleWebScraper\bin\Debug\SimpleWebScraper.exe
+C:\Users\kevin.shaughnessy\source\repos\SimpleWebScraper\SimpleWebScraper\bin\Debug\SimpleWebScraper.pdb
+C:\Users\kevin.shaughnessy\source\repos\SimpleWebScraper\SimpleWebScraper\obj\Debug\SimpleWebScraper.csproj.AssemblyReference.cache
+C:\Users\kevin.shaughnessy\source\repos\SimpleWebScraper\SimpleWebScraper\obj\Debug\SimpleWebScraper.csproj.CoreCompileInputs.cache
+C:\Users\kevin.shaughnessy\source\repos\SimpleWebScraper\SimpleWebScraper\obj\Debug\SimpleWebScraper.exe
+C:\Users\kevin.shaughnessy\source\repos\SimpleWebScraper\SimpleWebScraper\obj\Debug\SimpleWebScraper.pdb

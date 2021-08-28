@@ -14,44 +14,53 @@ namespace SimpleWebScraper
     class Program
     {
         private const string Method = "search";
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter which city you would like to scrape information from:");
-            var craigsListCity = Console.ReadLine() ?? string.Empty;
-
-            Console.WriteLine("Please enter the Craiglist category that you would like to scrape");
-            var craigslistCategoryName = Console.ReadLine() ?? string.Empty;
-
-            using (WebClient client = new WebClient())
+            try
             {
-                string content = client.DownloadString($"http://{craigsListCity.Replace(" ", string.Empty)}craigsListCity.org/{Method}/{craigslistCategoryName}");
+                Console.WriteLine("Please enter which city you would like to scrape information from:");
+                var craigslistCity = Console.ReadLine() ?? string.Empty;
 
-                ScrapeCriteria scrapeCriteria = new ScrapeCriteriaBuilder()
-                    .WithData(content)
-                    .WithRegex(@"<a href=\""(.*?)\"" data-id=\""(.*?)\"" class=\""result-title hdrlnk\"">(.*?</a>)")
-                    .WithRegexOption(RegexOptions.ExplicitCapture)
-                    .WithPart(new ScrapeCriteriaPartBuilder()
-                        .WithRegex(@">(.*?)</a>")
-                        .WithRegexOptions(RegexOptions.Singleline)
-                        .Build())
-                    .WithPart(new ScrapeCriteriaPartBuilder()
-                        .WithRegex(@"gref=\""(.*?)\""")
-                        .WithRegexOptions(RegexOptions.Singleline)
-                        .Build())
-                    .Build();
+                Console.WriteLine("Please enter the CraigsList category that you would like to scrape:");
+                var craigslistCategoryName = Console.ReadLine() ?? string.Empty;
 
-                Scraper scraper = new Scraper();
-
-                var scrapedElements = scraper.Scrape(scrapeCriteria);
-
-                if (scrapedElements.Any())
+                using (WebClient client = new WebClient())
                 {
-                    foreach (var scrapedElement in scrapedElements) Console.WriteLine(scrapedElement);
+                    string content = client.DownloadString($"http://{craigslistCity.Replace(" ", string.Empty)}.craigslist.org/{Method}/{craigslistCategoryName}");
+
+                    ScrapeCriteria scrapeCriteria = new ScrapeCriteriaBuilder()
+                        .WithData(content)
+                        // craigslist recently added an id to their group elements which I have included here as an update - 10/5/2020
+                        .WithRegex(@"<a href=\""(.*?)\"" data-id=\""(.*?)\"" class=\""result-title hdrlnk\"" id=\""(.*?)\"" >(.*?)</a>")
+                        .WithRegexOption(RegexOptions.ExplicitCapture)
+                        .WithPart(new ScrapeCriteriaPartBuilder()
+                            .WithRegex(@">(.*?)</a>")
+                            .WithRegexOptions(RegexOptions.Singleline)
+                            .Build())
+                        .WithPart(new ScrapeCriteriaPartBuilder()
+                            .WithRegex(@"href=\""(.*?)\""")
+                            .WithRegexOptions(RegexOptions.Singleline)
+                            .Build())
+                        .Build();
+
+                    Scraper scraper = new Scraper();
+
+                    var scrapedElements = scraper.Scrape(scrapeCriteria);
+
+                    if (scrapedElements.Any())
+                    {
+                        foreach (var scrapedElement in scrapedElements) Console.WriteLine(scrapedElement);
+                    }
+                    else
+                    {
+                        Console.WriteLine("There were no matches for the specified scrape criteria.");
+                    }
                 }
-                else
-                {
-                    Console.WriteLine("There were no matches for the specified scrape criteria.");
-                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
             }
         }
     }
